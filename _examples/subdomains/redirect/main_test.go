@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kataras/iris/httptest"
+	"github.com/nooberfsh/iris/httptest"
 )
 
 func TestSubdomainRedirectWWW(t *testing.T) {

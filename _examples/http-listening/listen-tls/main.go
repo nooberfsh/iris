@@ -3,9 +3,9 @@ package main
 import (
 	"net/url"
 
-	"github.com/kataras/iris"
+	"github.com/nooberfsh/iris"
 
-	"github.com/kataras/iris/core/host"
+	"github.com/nooberfsh/iris/core/host"
 )
 
 func main() {

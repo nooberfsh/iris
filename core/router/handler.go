@@ -8,10 +8,10 @@ import (
 
 	"github.com/kataras/golog"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/core/netutil"
-	"github.com/kataras/iris/core/router/node"
+	"github.com/nooberfsh/iris/context"
+	"github.com/nooberfsh/iris/core/errors"
+	"github.com/nooberfsh/iris/core/netutil"
+	"github.com/nooberfsh/iris/core/router/node"
 )
 
 // RequestHandler the middle man between acquiring a context and releasing it.
@@ -163,7 +163,7 @@ func (h *routerHandler) HandleRequest(ctx context.Context) {
 			r.URL.Path = path
 			url := r.URL.String()
 
-			// Fixes https://github.com/kataras/iris/issues/921
+			// Fixes https://github.com/nooberfsh/iris/issues/921
 			// This is caused for security reasons, imagine a payment shop,
 			// you can't just permantly redirect a POST request, so just 307 (RFC 7231, 6.4.7).
 			if method == http.MethodPost || method == http.MethodPut {

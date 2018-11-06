@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/nooberfsh/iris"
 
 	prometheusMiddleware "github.com/iris-contrib/middleware/prometheus"
 

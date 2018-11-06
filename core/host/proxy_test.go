@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/host"
-	"github.com/kataras/iris/httptest"
+	"github.com/nooberfsh/iris"
+	"github.com/nooberfsh/iris/context"
+	"github.com/nooberfsh/iris/core/host"
+	"github.com/nooberfsh/iris/httptest"
 )
 
 func TestProxy(t *testing.T) {

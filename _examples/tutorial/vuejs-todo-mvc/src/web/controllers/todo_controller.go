@@ -1,12 +1,12 @@
 package controllers
 
 import (
-	"github.com/kataras/iris/_examples/tutorial/vuejs-todo-mvc/src/todo"
+	"github.com/nooberfsh/iris/_examples/tutorial/vuejs-todo-mvc/src/todo"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/mvc"
-	"github.com/kataras/iris/sessions"
-	"github.com/kataras/iris/websocket"
+	"github.com/nooberfsh/iris"
+	"github.com/nooberfsh/iris/mvc"
+	"github.com/nooberfsh/iris/sessions"
+	"github.com/nooberfsh/iris/websocket"
 )
 
 // TodoController is our TODO app's web controller.

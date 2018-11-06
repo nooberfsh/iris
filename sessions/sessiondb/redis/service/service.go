@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 	"github.com/gomodule/redigo/redis"
-	"github.com/kataras/iris/core/errors"
+	"github.com/nooberfsh/iris/core/errors"
 )
 
 var (

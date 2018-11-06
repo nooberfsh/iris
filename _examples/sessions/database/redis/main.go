@@ -3,11 +3,11 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/nooberfsh/iris"
 
-	"github.com/kataras/iris/sessions"
-	"github.com/kataras/iris/sessions/sessiondb/redis"
-	"github.com/kataras/iris/sessions/sessiondb/redis/service"
+	"github.com/nooberfsh/iris/sessions"
+	"github.com/nooberfsh/iris/sessions/sessiondb/redis"
+	"github.com/nooberfsh/iris/sessions/sessiondb/redis/service"
 )
 
 // tested with redis version 3.0.503.

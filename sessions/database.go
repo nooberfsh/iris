@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/core/memstore"
+	"github.com/nooberfsh/iris/core/errors"
+	"github.com/nooberfsh/iris/core/memstore"
 )
 
 // ErrNotImplemented is returned when a particular feature is not yet implemented yet.

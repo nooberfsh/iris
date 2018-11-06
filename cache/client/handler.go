@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kataras/iris/cache/client/rule"
-	"github.com/kataras/iris/cache/entry"
-	"github.com/kataras/iris/context"
+	"github.com/nooberfsh/iris/cache/client/rule"
+	"github.com/nooberfsh/iris/cache/entry"
+	"github.com/nooberfsh/iris/context"
 )
 
 // Handler the local cache service handler contains

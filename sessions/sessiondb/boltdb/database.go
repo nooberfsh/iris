@@ -8,8 +8,8 @@ import (
 
 	"github.com/coreos/bbolt"
 	"github.com/kataras/golog"
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/sessions"
+	"github.com/nooberfsh/iris/core/errors"
+	"github.com/nooberfsh/iris/sessions"
 )
 
 // DefaultFileMode used as the default database's "fileMode"

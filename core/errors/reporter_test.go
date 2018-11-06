@@ -4,7 +4,7 @@ package errors_test
 import (
 	"testing"
 
-	"github.com/kataras/iris/core/errors"
+	"github.com/nooberfsh/iris/core/errors"
 )
 
 func TestReporterAdd(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kataras/iris/httptest"
+	"github.com/nooberfsh/iris/httptest"
 )
 
 func TestResponseWriterQuicktemplate(t *testing.T) {

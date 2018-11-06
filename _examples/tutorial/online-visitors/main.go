@@ -3,9 +3,9 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/kataras/iris"
+	"github.com/nooberfsh/iris"
 
-	"github.com/kataras/iris/websocket"
+	"github.com/nooberfsh/iris/websocket"
 )
 
 func main() {

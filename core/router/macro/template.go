@@ -1,8 +1,8 @@
 package macro
 
 import (
-	"github.com/kataras/iris/core/router/macro/interpreter/ast"
-	"github.com/kataras/iris/core/router/macro/interpreter/parser"
+	"github.com/nooberfsh/iris/core/router/macro/interpreter/ast"
+	"github.com/nooberfsh/iris/core/router/macro/interpreter/parser"
 )
 
 // Template contains a route's path full parsed template.

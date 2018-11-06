@@ -6,9 +6,9 @@ Example:
 
 ```go
 import (
-    "github.com/kataras/iris/_examples/mvc/login/datamodels"
+    "github.com/nooberfsh/iris/_examples/mvc/login/datamodels"
 
-    "github.com/kataras/iris/context"
+    "github.com/nooberfsh/iris/context"
 )
 
 type User struct {

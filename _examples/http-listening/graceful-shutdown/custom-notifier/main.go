@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/nooberfsh/iris"
 )
 
 func main() {
