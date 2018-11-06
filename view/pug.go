@@ -18,6 +18,9 @@ import (
 // https://github.com/kataras/iris/tree/master/_examples/view/template_pug_3
 func Pug(directory, extension string) *HTMLEngine {
 	s := HTML(directory, extension)
-	s.middleware = jade.Parse
+	//s.middleware = jade.Parse
+	s.middleware = func(a, b string) (string, error) {
+		return jade.Parse(a, []byte(b))
+	}
 	return s
 }
